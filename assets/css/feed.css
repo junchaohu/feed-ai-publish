@@ -1,0 +1,134 @@
+/*
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the 
+ * later versions of this theme. 
+ * 
+ * We advise that you use use this CSS to override 
+ * SmartAdmin styles. 
+ * 
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+
+/*
+ *  ng select style 
+ *
+ */
+select-dropdown > div {
+    background-color: transparent !important;
+}
+
+ng-select > div > div.single {
+    height: 22px !important;
+}
+
+select-dropdown > div .filter {
+    padding: 0px 3px !important;
+}
+
+select-dropdown > div .filter input {
+    padding: 0px !important;
+    background: rgba(255, 255, 255, .2);
+    border-color: rgba(255, 255, 255, .4);
+    color: #FFF;
+}
+
+ng-select > div > div.single > div.value, 
+ng-select > div > div.single > div.placeholder {
+    line-height: 22px !important;
+}
+
+
+ng-select > div > div.single > div.clear, 
+ng-select > div > div.single > div.toggle {
+    line-height: 22px !important;
+}
+
+ng-select > div > div.single > div.clear:hover, ng-select > div > div.single > div.toggle:hover {
+    background-color: #ececec;
+}
+
+select-dropdown > div .options ul li {
+    padding: 0px 8px !important;
+    line-height: normal !important;
+}
+
+select-dropdown .selected {
+    background-color: #9483f1 !important;
+}
+
+select-dropdown .selected.highlighted {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+select-dropdown .highlighted {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+/*
+ *  end ng select style 
+ */
+.page-title {
+    margin: 2px 0 0;
+}
+
+.width100 {
+    width: 100%;
+}
+
+#sparks {
+    margin: 2px 0 0;
+}
+
+.echart-vh50 {
+    height: 50vh;
+}
+
+.echart-vh20 {
+    height: 20vh;
+}
+
+.echart-vh30 {
+    height: 30vh;
+}
+
+.echart-vh35 {
+    height: 33vh;
+}
+
+.echart-vh70 {
+    height: 70vh;
+}
+
+.echart-vh75 {
+    height: 73vh;
+}
+
+#project-name, .project-name {
+    display: inline-block;
+    padding: 0 13px;
+    position: relative;
+}
+
+#project-name> h1, .project-name> h1 {
+    display: block;
+    color: #f0f5f7;
+    font-weight: 700;
+    text-shadow: 0 0 1px #fff;
+    padding-left: 0;
+    text-align: left;
+}
+
+#project-name > h1 > img, .project-name > h1 > img {
+    width: 28px;
+}
